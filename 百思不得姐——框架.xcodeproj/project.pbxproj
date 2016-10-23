@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		410E8EBE1DBCD84400BF30D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 410E8EBD1DBCD84400BF30D1 /* main.m */; };
-		410E8EC11DBCD84400BF30D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 410E8EC01DBCD84400BF30D1 /* AppDelegate.m */; };
-		410E8EC41DBCD84400BF30D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410E8EC31DBCD84400BF30D1 /* ViewController.m */; };
-		410E8EC71DBCD84400BF30D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410E8EC51DBCD84400BF30D1 /* Main.storyboard */; };
 		410E8EC91DBCD84400BF30D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410E8EC81DBCD84400BF30D1 /* Assets.xcassets */; };
-		410E8ECC1DBCD84400BF30D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410E8ECA1DBCD84400BF30D1 /* LaunchScreen.storyboard */; };
 		410E8ED71DBCD84500BF30D1 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 410E8ED61DBCD84500BF30D1 /* _________Tests.m */; };
 		410E8EE21DBCD84500BF30D1 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 410E8EE11DBCD84500BF30D1 /* _________UITests.m */; };
+		410E8F081DBCF06000BF30D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 410E8F061DBCF06000BF30D1 /* AppDelegate.m */; };
+		410E8F091DBCF06000BF30D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 410E8F071DBCF06000BF30D1 /* main.m */; };
+		410E8F0C1DBCF1B000BF30D1 /* BSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410E8F0B1DBCF1B000BF30D1 /* BSTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +34,7 @@
 
 /* Begin PBXFileReference section */
 		410E8EB91DBCD84400BF30D1 /* 百思不得姐——框架.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐——框架.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		410E8EBD1DBCD84400BF30D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		410E8EBF1DBCD84400BF30D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		410E8EC01DBCD84400BF30D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		410E8EC21DBCD84400BF30D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		410E8EC31DBCD84400BF30D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		410E8EC61DBCD84400BF30D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		410E8EC81DBCD84400BF30D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		410E8ECB1DBCD84400BF30D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		410E8ECD1DBCD84400BF30D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		410E8ED21DBCD84500BF30D1 /* 百思不得姐——框架Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐——框架Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		410E8ED61DBCD84500BF30D1 /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
@@ -51,6 +42,11 @@
 		410E8EDD1DBCD84500BF30D1 /* 百思不得姐——框架UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐——框架UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		410E8EE11DBCD84500BF30D1 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
 		410E8EE31DBCD84500BF30D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410E8F051DBCF06000BF30D1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		410E8F061DBCF06000BF30D1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		410E8F071DBCF06000BF30D1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		410E8F0A1DBCF1B000BF30D1 /* BSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTabBarController.h; sourceTree = "<group>"; };
+		410E8F0B1DBCF1B000BF30D1 /* BSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +97,8 @@
 		410E8EBB1DBCD84400BF30D1 /* 百思不得姐——框架 */ = {
 			isa = PBXGroup;
 			children = (
-				410E8EBF1DBCD84400BF30D1 /* AppDelegate.h */,
-				410E8EC01DBCD84400BF30D1 /* AppDelegate.m */,
-				410E8EC21DBCD84400BF30D1 /* ViewController.h */,
-				410E8EC31DBCD84400BF30D1 /* ViewController.m */,
-				410E8EC51DBCD84400BF30D1 /* Main.storyboard */,
+				410E8EEF1DBCF06000BF30D1 /* Classes */,
 				410E8EC81DBCD84400BF30D1 /* Assets.xcassets */,
-				410E8ECA1DBCD84400BF30D1 /* LaunchScreen.storyboard */,
-				410E8ECD1DBCD84400BF30D1 /* Info.plist */,
 				410E8EBC1DBCD84400BF30D1 /* Supporting Files */,
 			);
 			path = "百思不得姐——框架";
@@ -117,7 +107,7 @@
 		410E8EBC1DBCD84400BF30D1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				410E8EBD1DBCD84400BF30D1 /* main.m */,
+				410E8ECD1DBCD84400BF30D1 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +128,186 @@
 				410E8EE31DBCD84500BF30D1 /* Info.plist */,
 			);
 			path = "百思不得姐——框架UITests";
+			sourceTree = "<group>";
+		};
+		410E8EEF1DBCF06000BF30D1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				410E8EF01DBCF06000BF30D1 /* Essence */,
+				410E8EF41DBCF06000BF30D1 /* FriendTrends */,
+				410E8EF81DBCF06000BF30D1 /* Main */,
+				410E8EFC1DBCF06000BF30D1 /* Me */,
+				410E8F001DBCF06000BF30D1 /* New */,
+				410E8F041DBCF06000BF30D1 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		410E8EF01DBCF06000BF30D1 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				410E8EF11DBCF06000BF30D1 /* Controller */,
+				410E8EF21DBCF06000BF30D1 /* Model */,
+				410E8EF31DBCF06000BF30D1 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		410E8EF11DBCF06000BF30D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		410E8EF21DBCF06000BF30D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		410E8EF31DBCF06000BF30D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		410E8EF41DBCF06000BF30D1 /* FriendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				410E8EF51DBCF06000BF30D1 /* Controller */,
+				410E8EF61DBCF06000BF30D1 /* Model */,
+				410E8EF71DBCF06000BF30D1 /* View */,
+			);
+			path = FriendTrends;
+			sourceTree = "<group>";
+		};
+		410E8EF51DBCF06000BF30D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		410E8EF61DBCF06000BF30D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		410E8EF71DBCF06000BF30D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		410E8EF81DBCF06000BF30D1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				410E8EF91DBCF06000BF30D1 /* Controller */,
+				410E8EFA1DBCF06000BF30D1 /* Model */,
+				410E8EFB1DBCF06000BF30D1 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		410E8EF91DBCF06000BF30D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				410E8F0A1DBCF1B000BF30D1 /* BSTabBarController.h */,
+				410E8F0B1DBCF1B000BF30D1 /* BSTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		410E8EFA1DBCF06000BF30D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		410E8EFB1DBCF06000BF30D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		410E8EFC1DBCF06000BF30D1 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				410E8EFD1DBCF06000BF30D1 /* Controller */,
+				410E8EFE1DBCF06000BF30D1 /* Model */,
+				410E8EFF1DBCF06000BF30D1 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		410E8EFD1DBCF06000BF30D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		410E8EFE1DBCF06000BF30D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		410E8EFF1DBCF06000BF30D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		410E8F001DBCF06000BF30D1 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				410E8F011DBCF06000BF30D1 /* Controller */,
+				410E8F021DBCF06000BF30D1 /* Model */,
+				410E8F031DBCF06000BF30D1 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		410E8F011DBCF06000BF30D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		410E8F021DBCF06000BF30D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		410E8F031DBCF06000BF30D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		410E8F041DBCF06000BF30D1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				410E8F051DBCF06000BF30D1 /* AppDelegate.h */,
+				410E8F061DBCF06000BF30D1 /* AppDelegate.m */,
+				410E8F071DBCF06000BF30D1 /* main.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +372,7 @@
 		410E8EB11DBCD84400BF30D1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BS;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = ryq;
 				TargetAttributes = {
@@ -249,9 +420,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410E8ECC1DBCD84400BF30D1 /* LaunchScreen.storyboard in Resources */,
 				410E8EC91DBCD84400BF30D1 /* Assets.xcassets in Resources */,
-				410E8EC71DBCD84400BF30D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +445,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410E8EC41DBCD84400BF30D1 /* ViewController.m in Sources */,
-				410E8EC11DBCD84400BF30D1 /* AppDelegate.m in Sources */,
-				410E8EBE1DBCD84400BF30D1 /* main.m in Sources */,
+				410E8F091DBCF06000BF30D1 /* main.m in Sources */,
+				410E8F081DBCF06000BF30D1 /* AppDelegate.m in Sources */,
+				410E8F0C1DBCF1B000BF30D1 /* BSTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,25 +481,6 @@
 			targetProxy = 410E8EDE1DBCD84500BF30D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		410E8EC51DBCD84400BF30D1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				410E8EC61DBCD84400BF30D1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		410E8ECA1DBCD84400BF30D1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				410E8ECB1DBCD84400BF30D1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		410E8EE41DBCD84500BF30D1 /* Debug */ = {
@@ -425,8 +575,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 5J8KV264SM;
 				INFOPLIST_FILE = "百思不得姐——框架/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ryq.---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,8 +589,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 5J8KV264SM;
 				INFOPLIST_FILE = "百思不得姐——框架/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ryq.---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
