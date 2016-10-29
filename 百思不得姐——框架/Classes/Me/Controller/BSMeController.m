@@ -19,22 +19,24 @@
     
     self.navigationItem.title = @"我";
     
-//    UIButton *setting = [UIButton buttonWithType:UIButtonTypeCustom];
-//    [setting setImage:[UIImage imageNamed:@"mine-setting-icon"] forState:UIControlStateNormal];
-//    [setting setImage:[UIImage imageNamed:@"mine-setting-icon-click"] forState:UIControlStateHighlighted];
-//    [setting sizeToFit];
-//    [setting addTarget:self action:@selector(settingClick) forControlEvents:UIControlEventTouchUpInside];
-//    
-//    UIButton *moon = [UIButton buttonWithType:UIButtonTypeCustom];
-//    [moon setImage:[UIImage imageNamed:@"mine-moon-icon"] forState:UIControlStateNormal];
-//    [moon setImage:[UIImage imageNamed:@"mine-moon-icon-click"] forState:UIControlStateHighlighted];
-//    [moon sizeToFit];
-//    [setting addTarget:self action:@selector(moonClick) forControlEvents:UIControlEventTouchUpInside];
-//    
-    UIBarButtonItem *settingItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"mine-setting-icon"] style:UIBarButtonItemStyleDone target:self action:@selector(settingClick)];
-#warning 继续完善该右边按钮
-    UIBarButtonItem *moonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"mine-moon-icon"] style:UIBarButtonItemStyleDone target:self action:@selector(moonClick)];
+    UIButton *setting = [UIButton buttonWithType:UIButtonTypeCustom];
+    [setting setImage:[UIImage imageNamed:@"mine-setting-icon"] forState:UIControlStateNormal];
+    [setting setImage:[UIImage imageNamed:@"mine-setting-icon-click"] forState:UIControlStateHighlighted];
+    [setting sizeToFit];
+    [setting addTarget:self action:@selector(settingClick) forControlEvents:UIControlEventTouchUpInside];
     
+    UIButton *moon = [UIButton buttonWithType:UIButtonTypeCustom];
+    [moon setImage:[UIImage imageNamed:@"mine-moon-icon"] forState:UIControlStateNormal];
+    [moon setImage:[UIImage imageNamed:@"mine-moon-icon-click"] forState:UIControlStateHighlighted];
+    [moon sizeToFit];
+    [moon addTarget:self action:@selector(moonClick) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIBarButtonItem *settingItem = [[UIBarButtonItem alloc] initWithCustomView:setting];
+    UIBarButtonItem *moonItem = [[UIBarButtonItem alloc] initWithCustomView:moon];
+    
+//    UIBarButtonItem *settingItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"mine-setting-icon"] style:UIBarButtonItemStyleDone target:self action:@selector(settingClick)];
+//    UIBarButtonItem *moonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"mine-moon-icon"] style:UIBarButtonItemStyleDone target:self action:@selector(moonClick)];
+//    
     
     self.navigationItem.rightBarButtonItems = @[settingItem,moonItem];
 }

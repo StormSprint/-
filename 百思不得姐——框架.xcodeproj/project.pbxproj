@@ -17,6 +17,7 @@
 		41766B761DC0966500D21AEC /* BSNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41766B751DC0966500D21AEC /* BSNewController.m */; };
 		41766B791DC24DAA00D21AEC /* BSFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41766B781DC24DAA00D21AEC /* BSFriendTrendsController.m */; };
 		41766B7C1DC2505300D21AEC /* BSMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41766B7B1DC2505300D21AEC /* BSMeController.m */; };
+		41766B7E1DC4EB2C00D21AEC /* BSFriendTrendsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41766B7D1DC4EB2C00D21AEC /* BSFriendTrendsController.xib */; };
 		41ADA04F1DBF7CE600CFF31C /* UIView+BSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ADA04E1DBF7CE600CFF31C /* UIView+BSExtension.m */; };
 		41ADA0521DBF81C500CFF31C /* BSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ADA0511DBF81C500CFF31C /* BSTabBar.m */; };
 		41ADA0551DBF876500CFF31C /* BSEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ADA0541DBF876500CFF31C /* BSEssenceController.m */; };
@@ -62,6 +63,7 @@
 		41766B781DC24DAA00D21AEC /* BSFriendTrendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFriendTrendsController.m; sourceTree = "<group>"; };
 		41766B7A1DC2505300D21AEC /* BSMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMeController.h; sourceTree = "<group>"; };
 		41766B7B1DC2505300D21AEC /* BSMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMeController.m; sourceTree = "<group>"; };
+		41766B7D1DC4EB2C00D21AEC /* BSFriendTrendsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSFriendTrendsController.xib; sourceTree = "<group>"; };
 		41ADA04B1DBF7BFD00CFF31C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		41ADA04D1DBF7CE600CFF31C /* UIView+BSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BSExtension.h"; sourceTree = "<group>"; };
 		41ADA04E1DBF7CE600CFF31C /* UIView+BSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSExtension.m"; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 			children = (
 				41766B771DC24DAA00D21AEC /* BSFriendTrendsController.h */,
 				41766B781DC24DAA00D21AEC /* BSFriendTrendsController.m */,
+				41766B7D1DC4EB2C00D21AEC /* BSFriendTrendsController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41766B7E1DC4EB2C00D21AEC /* BSFriendTrendsController.xib in Resources */,
 				410E8EC91DBCD84400BF30D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

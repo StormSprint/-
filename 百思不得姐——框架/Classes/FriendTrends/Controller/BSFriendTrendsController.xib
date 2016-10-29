@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BSFriendTrendsController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="YAM-52-NwT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_cry_icon" translatesAutoresizingMaskIntoConstraints="NO" id="AEM-ek-ITT"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8br-b7-fpP">
+                    <string key="text">快点来关注百思不得姐
+最in牛人 发</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPZ-hA-cjn">
+                    <state key="normal" title="立即注册登录" backgroundImage="friendsTrend_login">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="friendsTrend_login_click">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="RPZ-hA-cjn" firstAttribute="top" secondItem="8br-b7-fpP" secondAttribute="bottom" constant="100" id="Hab-bx-0a6"/>
+                <constraint firstItem="8br-b7-fpP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="NdX-89-CaT"/>
+                <constraint firstItem="8br-b7-fpP" firstAttribute="top" secondItem="AEM-ek-ITT" secondAttribute="bottom" constant="50" id="SP9-6Z-IFU"/>
+                <constraint firstItem="RPZ-hA-cjn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="f4J-Ha-SVU"/>
+                <constraint firstItem="8br-b7-fpP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="giQ-fI-VEc"/>
+                <constraint firstItem="AEM-ek-ITT" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qrn-Cs-Cas"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="friendsTrend_login" width="243" height="48"/>
+        <image name="friendsTrend_login_click" width="243" height="48"/>
+        <image name="header_cry_icon" width="48" height="48"/>
+    </resources>
+</document>
