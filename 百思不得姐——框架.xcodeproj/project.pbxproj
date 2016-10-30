@@ -13,11 +13,14 @@
 		410E8F081DBCF06000BF30D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 410E8F061DBCF06000BF30D1 /* AppDelegate.m */; };
 		410E8F091DBCF06000BF30D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 410E8F071DBCF06000BF30D1 /* main.m */; };
 		410E8F0C1DBCF1B000BF30D1 /* BSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410E8F0B1DBCF1B000BF30D1 /* BSTabBarController.m */; };
+		416DD3881DC5E358003A77BA /* BSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 416DD3871DC5E358003A77BA /* BSButton.m */; };
 		41766B731DC093C300D21AEC /* BSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41766B721DC093C300D21AEC /* BSNavigationController.m */; };
 		41766B761DC0966500D21AEC /* BSNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41766B751DC0966500D21AEC /* BSNewController.m */; };
 		41766B791DC24DAA00D21AEC /* BSFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41766B781DC24DAA00D21AEC /* BSFriendTrendsController.m */; };
 		41766B7C1DC2505300D21AEC /* BSMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41766B7B1DC2505300D21AEC /* BSMeController.m */; };
 		41766B7E1DC4EB2C00D21AEC /* BSFriendTrendsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41766B7D1DC4EB2C00D21AEC /* BSFriendTrendsController.xib */; };
+		41766B821DC5D1E700D21AEC /* BSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41766B801DC5D1E700D21AEC /* BSLoginViewController.m */; };
+		41766B831DC5D1E700D21AEC /* BSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41766B811DC5D1E700D21AEC /* BSLoginViewController.xib */; };
 		41ADA04F1DBF7CE600CFF31C /* UIView+BSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ADA04E1DBF7CE600CFF31C /* UIView+BSExtension.m */; };
 		41ADA0521DBF81C500CFF31C /* BSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ADA0511DBF81C500CFF31C /* BSTabBar.m */; };
 		41ADA0551DBF876500CFF31C /* BSEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ADA0541DBF876500CFF31C /* BSEssenceController.m */; };
@@ -55,6 +58,8 @@
 		410E8F071DBCF06000BF30D1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		410E8F0A1DBCF1B000BF30D1 /* BSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTabBarController.h; sourceTree = "<group>"; };
 		410E8F0B1DBCF1B000BF30D1 /* BSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTabBarController.m; sourceTree = "<group>"; };
+		416DD3861DC5E358003A77BA /* BSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSButton.h; sourceTree = "<group>"; };
+		416DD3871DC5E358003A77BA /* BSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSButton.m; sourceTree = "<group>"; };
 		41766B711DC093C300D21AEC /* BSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNavigationController.h; sourceTree = "<group>"; };
 		41766B721DC093C300D21AEC /* BSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNavigationController.m; sourceTree = "<group>"; };
 		41766B741DC0966500D21AEC /* BSNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNewController.h; sourceTree = "<group>"; };
@@ -64,6 +69,9 @@
 		41766B7A1DC2505300D21AEC /* BSMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMeController.h; sourceTree = "<group>"; };
 		41766B7B1DC2505300D21AEC /* BSMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMeController.m; sourceTree = "<group>"; };
 		41766B7D1DC4EB2C00D21AEC /* BSFriendTrendsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSFriendTrendsController.xib; sourceTree = "<group>"; };
+		41766B7F1DC5D1E700D21AEC /* BSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLoginViewController.h; sourceTree = "<group>"; };
+		41766B801DC5D1E700D21AEC /* BSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLoginViewController.m; sourceTree = "<group>"; };
+		41766B811DC5D1E700D21AEC /* BSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSLoginViewController.xib; sourceTree = "<group>"; };
 		41ADA04B1DBF7BFD00CFF31C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		41ADA04D1DBF7CE600CFF31C /* UIView+BSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BSExtension.h"; sourceTree = "<group>"; };
 		41ADA04E1DBF7CE600CFF31C /* UIView+BSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSExtension.m"; sourceTree = "<group>"; };
@@ -251,6 +259,9 @@
 				410E8F0B1DBCF1B000BF30D1 /* BSTabBarController.m */,
 				41766B711DC093C300D21AEC /* BSNavigationController.h */,
 				41766B721DC093C300D21AEC /* BSNavigationController.m */,
+				41766B7F1DC5D1E700D21AEC /* BSLoginViewController.h */,
+				41766B801DC5D1E700D21AEC /* BSLoginViewController.m */,
+				41766B811DC5D1E700D21AEC /* BSLoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -267,6 +278,8 @@
 			children = (
 				41ADA0501DBF81C500CFF31C /* BSTabBar.h */,
 				41ADA0511DBF81C500CFF31C /* BSTabBar.m */,
+				416DD3861DC5E358003A77BA /* BSButton.h */,
+				416DD3871DC5E358003A77BA /* BSButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -466,6 +479,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41766B831DC5D1E700D21AEC /* BSLoginViewController.xib in Resources */,
 				41766B7E1DC4EB2C00D21AEC /* BSFriendTrendsController.xib in Resources */,
 				410E8EC91DBCD84400BF30D1 /* Assets.xcassets in Resources */,
 			);
@@ -494,9 +508,11 @@
 			files = (
 				41766B731DC093C300D21AEC /* BSNavigationController.m in Sources */,
 				410E8F091DBCF06000BF30D1 /* main.m in Sources */,
+				416DD3881DC5E358003A77BA /* BSButton.m in Sources */,
 				41766B7C1DC2505300D21AEC /* BSMeController.m in Sources */,
 				41ADA0551DBF876500CFF31C /* BSEssenceController.m in Sources */,
 				41ADA04F1DBF7CE600CFF31C /* UIView+BSExtension.m in Sources */,
+				41766B821DC5D1E700D21AEC /* BSLoginViewController.m in Sources */,
 				410E8F081DBCF06000BF30D1 /* AppDelegate.m in Sources */,
 				41766B791DC24DAA00D21AEC /* BSFriendTrendsController.m in Sources */,
 				41ADA0521DBF81C500CFF31C /* BSTabBar.m in Sources */,

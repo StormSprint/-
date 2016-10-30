@@ -26,21 +26,23 @@
     frame.origin.y = ryq_y;
     self.frame = frame;
 }
--(CGFloat)width {
+-(CGFloat)ryq_width {
     return self.frame.size.width;
 }
--(void)setWidth:(CGFloat)width {
-    CGRect bounds = self.bounds;
-    bounds.size.width = width;
-    self.bounds = bounds;
+- (void)setRyq_width:(CGFloat)ryq_width {
+    CGRect frame = self.frame;
+    frame.size.width = ryq_width;
+    self.frame = frame;
 }
--(CGFloat)height {
-    return self.bounds.size.height;
+- (CGFloat)ryq_height {
+    return self.frame.size.height;
 }
--(void)setHeight:(CGFloat)height {
-    CGRect bounds = self.bounds;
-    bounds.size.height = height;
-    self.bounds = bounds;
+- (void)setRyq_height:(CGFloat)ryq_height {
+    CGRect frame = self.frame;
+    frame.size.height = ryq_height;
+    self.frame = frame;
 }
+
+
 
 @end

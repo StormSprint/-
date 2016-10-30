@@ -7,6 +7,7 @@
 //
 
 #import "BSFriendTrendsController.h"
+#import "BSLoginViewController.h"
 
 @interface BSFriendTrendsController ()
 
@@ -34,6 +35,11 @@
     UIViewController *vc = [[UIViewController alloc] init];
     vc.view.backgroundColor = [UIColor redColor];
     [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)LoginRegiester {
+    BSLoginViewController *loginVc = [[BSLoginViewController alloc] init];
+    [self presentViewController:loginVc animated:YES completion:nil];
+    
 }
 
 @end

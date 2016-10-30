@@ -38,8 +38,8 @@
 -(void)layoutSubviews {
     [super layoutSubviews];
     
-    CGFloat btnW = self.width / 5;
-    CGFloat btnH = self.height;
+    CGFloat btnW = self.ryq_width / 5;
+    CGFloat btnH = self.ryq_height;
     CGFloat btnY = 0;
     CGFloat btnX = 0;
     int btnIndex = 0;
@@ -55,7 +55,7 @@
     }
     
     self.plusBtn.frame = CGRectMake(0, 0, btnW, btnH);
-    self.plusBtn.center = CGPointMake(self.width * 0.5, self.height * 0.5);
+    self.plusBtn.center = CGPointMake(self.ryq_width * 0.5, self.ryq_height * 0.5);
     
 }
 
