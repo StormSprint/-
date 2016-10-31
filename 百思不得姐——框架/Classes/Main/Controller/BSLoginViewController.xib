@@ -97,7 +97,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6fh-Lo-4RK" userLabel="登录框父控件">
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_rgister_textfield_bg" translatesAutoresizingMaskIntoConstraints="NO" id="NbT-Va-9zX" userLabel="文本框"/>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="gZU-jS-XmA" userLabel="密码">
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="gZU-jS-XmA" userLabel="密码" customClass="BSLoginTextField">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
@@ -112,7 +112,7 @@
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                             <state key="normal" title="忘记密码？"/>
                         </button>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="手机号" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="C7B-eR-yK4" userLabel="账户">
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="手机号" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="C7B-eR-yK4" userLabel="账户" customClass="BSLoginTextField">
                             <constraints>
                                 <constraint firstAttribute="height" constant="46" id="hDN-Jo-iAV"/>
                                 <constraint firstAttribute="width" constant="240" id="ziT-tV-1Wb"/>
@@ -143,7 +143,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yYS-K4-1Wx" userLabel="注册框父控件">
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_rgister_textfield_bg" translatesAutoresizingMaskIntoConstraints="NO" id="m6l-dT-0OW" userLabel="文本框"/>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="te2-im-kP8" userLabel="密码">
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="te2-im-kP8" userLabel="密码" customClass="BSLoginTextField">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
@@ -154,7 +154,7 @@
                             </state>
                             <state key="highlighted" backgroundImage="login_register_button_click"/>
                         </button>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入手机号" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="g3T-mL-h3N" userLabel="账户">
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入手机号" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="g3T-mL-h3N" userLabel="账户" customClass="BSLoginTextField">
                             <constraints>
                                 <constraint firstAttribute="height" constant="46" id="WS2-WN-wt7"/>
                                 <constraint firstAttribute="width" constant="240" id="gj0-Rk-pYQ"/>
