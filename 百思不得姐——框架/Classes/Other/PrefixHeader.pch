@@ -13,6 +13,7 @@
 
 //默认导入扩展头文件
 #import "UIView+BSExtension.h"
+#import "UITextField+BSExtension.h"
 
 //重定义nslog
 #ifdef DEBUG

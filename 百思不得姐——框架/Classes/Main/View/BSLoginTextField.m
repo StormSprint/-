@@ -8,7 +8,7 @@
 
 #import "BSLoginTextField.h"
 
-@interface BSLoginTextField ()<UITextFieldDelegate>
+@interface BSLoginTextField ()
 
 @end
 
@@ -16,25 +16,19 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    self.delegate = self;
     self.tintColor = [UIColor whiteColor];
     
-//    NSMutableDictionary *attDict = [NSMutableDictionary new];
-//    attDict[NSForegroundColorAttributeName] = [UIColor whiteColor];
-//    NSAttributedString *attString = [[NSAttributedString alloc] initWithString:self.placeholder attributes:attDict];
-//    self.attributedPlaceholder = attString;
+}
+
+- (BOOL)becomeFirstResponder {
     
+    self.placeHolderColor = [UIColor whiteColor];
+    return [super becomeFirstResponder];
 }
 
-- (void)textFieldDidBeginEditing:(UITextField *)textField {
-    NSMutableDictionary *attDict = [NSMutableDictionary new];
-    attDict[NSForegroundColorAttributeName] = [UIColor whiteColor];
-    NSAttributedString *attString = [[NSAttributedString alloc] initWithString:self.placeholder attributes:attDict];
-    textField.attributedPlaceholder = attString;
-}
-
-- (void)textFieldDidEndEditing:(UITextField *)textField {
-
-    textField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:self.placeholder];
+- (BOOL)resignFirstResponder {
+    
+    self.placeHolderColor = nil;
+    return  [super resignFirstResponder];
 }
 @end

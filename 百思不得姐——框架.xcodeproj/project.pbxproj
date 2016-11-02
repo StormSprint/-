@@ -15,6 +15,7 @@
 		410E8F0C1DBCF1B000BF30D1 /* BSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410E8F0B1DBCF1B000BF30D1 /* BSTabBarController.m */; };
 		41283A8E1DC78483005CE9EF /* BSLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 41283A8D1DC78482005CE9EF /* BSLoginTextField.m */; };
 		416DD3881DC5E358003A77BA /* BSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 416DD3871DC5E358003A77BA /* BSButton.m */; };
+		4173A9DB1DC9DF2A00AD7180 /* UITextField+BSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4173A9DA1DC9DF2A00AD7180 /* UITextField+BSExtension.m */; };
 		41766B731DC093C300D21AEC /* BSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41766B721DC093C300D21AEC /* BSNavigationController.m */; };
 		41766B761DC0966500D21AEC /* BSNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41766B751DC0966500D21AEC /* BSNewController.m */; };
 		41766B791DC24DAA00D21AEC /* BSFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41766B781DC24DAA00D21AEC /* BSFriendTrendsController.m */; };
@@ -63,6 +64,8 @@
 		41283A8D1DC78482005CE9EF /* BSLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLoginTextField.m; sourceTree = "<group>"; };
 		416DD3861DC5E358003A77BA /* BSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSButton.h; sourceTree = "<group>"; };
 		416DD3871DC5E358003A77BA /* BSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSButton.m; sourceTree = "<group>"; };
+		4173A9D91DC9DF2A00AD7180 /* UITextField+BSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BSExtension.h"; sourceTree = "<group>"; };
+		4173A9DA1DC9DF2A00AD7180 /* UITextField+BSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BSExtension.m"; sourceTree = "<group>"; };
 		41766B711DC093C300D21AEC /* BSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNavigationController.h; sourceTree = "<group>"; };
 		41766B721DC093C300D21AEC /* BSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNavigationController.m; sourceTree = "<group>"; };
 		41766B741DC0966500D21AEC /* BSNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNewController.h; sourceTree = "<group>"; };
@@ -372,6 +375,8 @@
 			children = (
 				41ADA04D1DBF7CE600CFF31C /* UIView+BSExtension.h */,
 				41ADA04E1DBF7CE600CFF31C /* UIView+BSExtension.m */,
+				4173A9D91DC9DF2A00AD7180 /* UITextField+BSExtension.h */,
+				4173A9DA1DC9DF2A00AD7180 /* UITextField+BSExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -517,6 +522,7 @@
 				41766B7C1DC2505300D21AEC /* BSMeController.m in Sources */,
 				41ADA0551DBF876500CFF31C /* BSEssenceController.m in Sources */,
 				41ADA04F1DBF7CE600CFF31C /* UIView+BSExtension.m in Sources */,
+				4173A9DB1DC9DF2A00AD7180 /* UITextField+BSExtension.m in Sources */,
 				41766B821DC5D1E700D21AEC /* BSLoginViewController.m in Sources */,
 				410E8F081DBCF06000BF30D1 /* AppDelegate.m in Sources */,
 				41766B791DC24DAA00D21AEC /* BSFriendTrendsController.m in Sources */,
